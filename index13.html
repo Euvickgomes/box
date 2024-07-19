@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .outer-container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inner-container{
+          display: flex;
+          flex-direction: row;  
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+    </div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>os itens do conatiner outer ficaram em colunas (item 3), e os outros em linha</p>
+</body>
+</html>
